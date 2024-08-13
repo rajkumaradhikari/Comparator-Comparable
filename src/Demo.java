@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Demo {
     public static void main(String[] args) {
-
+// Sorting integer base on the last digit
         Comparator<Integer> comp = new Comparator<Integer>() {
             @Override
             public int compare(Integer o1, Integer o2) {
