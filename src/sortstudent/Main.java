@@ -26,6 +26,7 @@ class Student{
 public class Main {
     public static void main(String[] args){
 
+        //sort using comparator
         Comparator<Student > comparator = new Comparator<Student>() {
             @Override
             public int compare(Student o1, Student o2) {
